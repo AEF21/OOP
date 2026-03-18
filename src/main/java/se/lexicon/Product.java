@@ -47,6 +47,6 @@ public class Product {
     }
 
 
-    //Demonstrate that each object maintains its own state.
-    //Create a UML class diagram for the `Product` class.
+    //Demonstrate that each object maintains its own state→ down on MainClass.
+    //Create a UML class diagram for the `Product` class→ down on UML-Class-Diagram.
 }

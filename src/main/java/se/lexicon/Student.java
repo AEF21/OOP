@@ -6,7 +6,7 @@ public class Student {
     private String studentId;
     private String name;
     private int age;
-    private int major;
+    private String major;
 
 
 
@@ -14,7 +14,7 @@ public class Student {
     // Apply **encapsulation** by making all fields private.
     //- Use:
     //Constructors to initialize student data
-    public Student(String studentId, String name, int age, int major){
+    public Student(String studentId, String name, int age, String major){
       this.studentId = studentId;
       this.name = name;
       this.age = age;
@@ -34,7 +34,7 @@ public class Student {
         this.age = age;
     }
 
-    public void setMajor(int major) {
+    public void setMajor(String major) {
         this.major = major;
     }
 
@@ -52,7 +52,7 @@ public class Student {
         return name;
     }
 
-    public int getMajor() {
+    public String getMajor() {
         return major;
     }
 
@@ -61,8 +61,8 @@ public class Student {
 
 
 
-    //Create **multiple Student objects** with different data.
+    //Create **multiple Student objects** with different data → down on MainClass.
 
-    // Show that each object represents a unique student.
-    //Create a UML class diagram for the `Student` class.
+    // Show that each object represents a unique student→ down on MainClass.
+    //Create a UML class diagram for the `Student` class→ down on UML-Class-Diagram.
 }

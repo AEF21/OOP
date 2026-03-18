@@ -50,9 +50,9 @@ public class Customer {
 
 
 
-    //- Demonstrate that each object stores and manages its own information.
+    //- Demonstrate that each object stores and manages its own information→ down on MainClass.
 
-    //Create a UML class diagram for the `Customer` class
+    // Create a UML class diagram for the `Customer` class→ down on UML-Class-Diagram.
 
 
 

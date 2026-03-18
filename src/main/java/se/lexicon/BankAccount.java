@@ -50,4 +50,13 @@ public class BankAccount {
             balance -= amount;
         }
     }
+
+    //---toString for clean  printing---
+    public String toString(){
+        return "BankAccount{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", ownerName='" + ownerName + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
 }
