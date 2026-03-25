@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.OOP1.Exercises;
 // Create a `Student` class.
 public class Student {
 

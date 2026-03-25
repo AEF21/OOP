@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.OOP1.Exercises;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.List;
 public class Order {
 
     // An order contains multiple products (use a collection)
-    private List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>();
 
     // Each order should have its own ID (recommended)
-    private String orderId;
+    private final String orderId;
 
     // Constructor
     public Order(String orderId) {
